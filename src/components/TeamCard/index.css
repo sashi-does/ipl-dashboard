@@ -1,0 +1,43 @@
+.team {
+  background-color: #ffffff33;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px #ffffff9b solid;
+  width: 35%;
+}
+
+.team-image {
+  height: 100px;
+  width: 80px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team-name {
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (max-width: 575px) {
+  .team-image {
+    height: 60px;
+    width: 60px;
+  }
+  .team-name {
+    font-size: 15px;
+  }
+}
+
+@media all and (min-width: 577px) {
+  .team-name {
+    font-size: 25px;
+  }
+}
